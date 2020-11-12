@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/mapButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/mapa_nuevo"
+        android:onClick="onClick" />
+
+    <Button
+        android:id="@+id/iniciarCarrera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="onClick"
+        android:text="@string/iniciar_carrera"
+        android:layout_marginBottom="20dp"
+        />
+
+    <ImageView
+        android:id="@+id/runnerImg"
+        android:layout_width="79dp"
+        android:layout_height="69dp"
+        android:layout_gravity="center"
+        android:contentDescription="animacion"
+        ></ImageView>
+
+    <ProgressBar
+        android:id="@+id/avanceCarrera"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="253dp"
+        android:layout_height="21dp"
+        android:layout_gravity="center"
+     />
+
+    <TextView
+        android:id="@+id/textoActual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="28dp"
+        android:textAlignment="center"
+        android:layout_marginTop="50dp"/>
+</LinearLayout>

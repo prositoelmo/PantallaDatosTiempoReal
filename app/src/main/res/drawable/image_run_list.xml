@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/ic_run1"
+        android:duration="150"
+        ></item>
+    <item
+        android:drawable="@drawable/ic_run2"
+        android:duration="150"
+        ></item>
+    <item
+        android:drawable="@drawable/ic_run3"
+        android:duration="150"
+        ></item>
+    <item
+        android:drawable="@drawable/ic_run4"
+        android:duration="150"
+        ></item>
+    <item
+        android:drawable="@drawable/ic_run5"
+        android:duration="150"
+        ></item>
+
+</animation-list>
